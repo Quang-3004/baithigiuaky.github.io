@@ -34,3 +34,16 @@ h1 {
   color: #333;
   text-decoration: none;
 }
+
+/* Thêm hiệu ứng hiện khi cuộn xuống */
+.animated {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
